@@ -1,7 +1,7 @@
 ---
 name: watch
-version: "0.2.1"
-description: Watch a video (URL or local path). Downloads with yt-dlp, extracts auto-scaled frames with ffmpeg, pulls the transcript from captions (or Whisper API fallback), and hands the result to Claude so it can answer questions about what's in the video.
+version: "0.2.2"
+description: Assiste um vídeo (URL ou caminho local). Baixa com yt-dlp, extrai frames auto-escalados com ffmpeg, obtém a transcrição das legendas (ou fallback via Whisper API), e entrega o resultado pronto pra responder perguntas sobre o conteúdo do vídeo.
 argument-hint: "<video-url-or-path> [question]"
 allowed-tools: Bash, Read, AskUserQuestion
 homepage: https://github.com/bradautomates/claude-video
